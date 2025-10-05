@@ -3,15 +3,13 @@
 
 This package only provides a Swift wrapper around the official [Bootstrap Icons](https://icons.getbootstrap.com/).  
 
-The package depends on SwiftHtml, created and maintained by [Tibor Bödecs](https://github.com/tib)
-
-[SwiftHtml](https://github.com/BinaryBirds/swift-html.git).
+The package depends on SwiftHtml, created and maintained by [Tibor Bödecs](https://github.com/tib) ([SwiftHtml](https://github.com/BinaryBirds/swift-html.git)).
 
 I am not the creator of the icons themselves.
 
 - **Bootstrap Icons** were created and are maintained by the [Bootstrap team](https://github.com/twbs/icons), led by [@mdo](https://github.com/mdo).  
 - The full icon set, documentation, and usage instructions can be found at [https://icons.getbootstrap.com/](https://icons.getbootstrap.com/).  
-- This wrapper simply makes them easier to use in Swift projects via [SwiftSvg](https://github.com/BinaryBirds/swift-html.git).
+- This wrapper simply makes them easier to use in Swift projects via [SwiftHtml](https://github.com/BinaryBirds/swift-html.git).
 
 ---
 
