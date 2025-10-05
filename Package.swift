@@ -8,8 +8,8 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "swift-html-bootstrap-icons",
-            targets: ["swift-html-bootstrap-icons"]
+            name: "BootstrapIcons",
+            targets: ["BootstrapIcons"]
         )
     ],
     dependencies: [
@@ -17,14 +17,13 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "swift-html-bootstrap-icons",
+            name: "BootstrapIcons",
             dependencies: [
                .product(name: "SwiftHtml", package: "swift-html"),
                .product(name: "SwiftSvg", package: "swift-html")
             ],
             swiftSettings: swiftSettings
-            ),
-        //.testTarget()
+        ),
     ]
 )
 
@@ -33,5 +32,3 @@ var swiftSettings: [SwiftSetting] {
       .unsafeFlags(["-cross-module-optimization"], .when(configuration: .release))
    ]
 }
-
-
