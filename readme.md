@@ -33,6 +33,11 @@ dependencies: [
 ]
 ```
 
+```
+// targets:
+.product(name: "BootstrapIcons", package: "swift-html-bootstrap-icons"),
+```
+
 ## Usage
 
 ### Render a simple Bootstrap icon:
