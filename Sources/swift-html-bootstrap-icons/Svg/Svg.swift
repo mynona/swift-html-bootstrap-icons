@@ -11428,7 +11428,7 @@ extension Svg {
     .attribute("width", w)
     .attribute("height", h)
     // Enforce it with inline-styling
-    .attribute("style", "width:\(w);height:\(h);min-width:\(w);min-height:\(h);display:inline-block;flex-shrink:0;")
+    .attribute("style", "width:\(w);height:\(h);min-width:\(w);min-height:\(h);flex-shrink:0;")
     .attribute("xmlns", "http://www.w3.org/2000/svg")
     .class("bi bi-\(icon.rawValue)")
   }
